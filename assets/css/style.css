@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --purple-light: #DDD2EF
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    max-width: 736px;
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+  background-color: #f2f0f5;
+  color: #333;
+}
+
+.cabecalho {
+  background-color: #D1CBD7;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+.cabecalho img {
+  height: 50px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+form input {
+  width: 600px;
+  height: 52px;
+  padding: 0 12px;
+  border: 2px solid #ddd6fe;
+  border-radius: 8px;
+  outline: none;
+  margin-top: -35px;
+}
+
+form input:focus {
+  border-color: #a78bfa;
+}
+
+form button {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -35px;
+}
+.tarefaSEC{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.tarefaSEC div{
+    display: flex;
+}
+.tarefaSEC p{
+    margin-right: 10px;
+}
+span{
+    border-radius: 10px;
+    padding: 0 5px;
+}
+#numTarefas{
+    background-color: #DDD2EF ;
+    color:#9359F3;
+}
+
+
+
+
